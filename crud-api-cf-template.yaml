@@ -3,6 +3,8 @@ Metadata:
     Generator: "former2"
 Description: ""
 Resources:
+    S3Bucket:
+        Type: AWS::S3::Bucket
     IAMRole:
         Type: "AWS::IAM::Role"
         Properties:
