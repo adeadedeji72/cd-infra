@@ -5,6 +5,8 @@ Description: ""
 Resources:
     S3Bucket:
         Type: AWS::S3::Bucket
+    S3Bucket2:
+        Type: AWS::S3::Bucket
     IAMRole:
         Type: "AWS::IAM::Role"
         Properties:
